@@ -12,6 +12,8 @@
 @interface ZYGameViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet ZYDrawView *drawView;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UIView *chooseColorView;
+@property (weak, nonatomic) IBOutlet UIView *chooseLineWidthView;
 
 @end
 
@@ -38,16 +40,29 @@
 #pragma mark - action
 
 - (IBAction)changeColor:(id)sender {
-    self.drawView.lineColor = [UIColor redColor];
+    self.chooseColorView.hidden = !self.chooseColorView.hidden;
 }
+
 - (IBAction)changeLineWidth:(id)sender {
-    self.drawView.lineWidth = 6;
+    self.chooseLineWidthView.hidden = !self.chooseLineWidthView.hidden;
 }
+
 - (IBAction)backClick:(id)sender {
     [self.drawView back];
 }
+
 - (IBAction)clearClick:(id)sender {
     [self.drawView clear];
+}
+
+- (IBAction)chooseColor:(UIButton *)sender {
+    self.drawView.lineColor = sender.backgroundColor;
+    self.chooseColorView.hidden = YES;
+}
+
+- (IBAction)chooseLineWidth:(UIButton *)sender {
+    self.drawView.lineWidth = sender.currentTitle.floatValue;
+    self.chooseLineWidthView.hidden = YES;
 }
 
 #pragma mark - tableViewDelegate
