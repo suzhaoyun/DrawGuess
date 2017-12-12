@@ -7,7 +7,6 @@
 //
 
 #import "ZYDrawView.h"
-
 @interface ZYDrawPathModel : NSObject<NSCoding>
 @property (nonatomic, strong) UIColor *pathColor;
 @property (nonatomic, strong) UIBezierPath *bezierPath;
@@ -68,6 +67,7 @@
     UIBezierPath *bezierPath = [UIBezierPath bezierPath];
     [bezierPath setLineWidth:self.lineWidth];
     [bezierPath moveToPoint:[[touches anyObject] locationInView:self]];
+    [bezierPath fill];
     model.bezierPath = bezierPath;
     [self.drawPaths addObject:model];
     [self setNeedsDisplay];

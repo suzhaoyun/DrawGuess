@@ -7,7 +7,7 @@
 //
 
 #import "ZYRegisterViewController.h"
-#import "ZYRoomViewController.h"
+#import "LoginViewController.h"
 
 @interface ZYRegisterViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *mutouBtn;
@@ -33,7 +33,7 @@
     [[NSUserDefaults standardUserDefaults] setObject:sender==self.mutouBtn?@"13161126199":@"18801017128" forKey:@"userid"];
     [[NSUserDefaults standardUserDefaults] synchronize];
 
-    ZYRoomViewController *vc = [ZYRoomViewController new];
+    LoginViewController *vc = [LoginViewController new];
     [self.navigationController pushViewController:vc animated:YES];
     
 }

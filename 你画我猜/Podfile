@@ -1,0 +1,7 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, ‘8.0’
+
+target '你画我猜' do
+    use_frameworks!
+    pod 'Socket.IO-Client-Swift', '~> 11.0.1'
+end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12761B88842560A05D3D0AA7 /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE496D3CD2AC6976EC75BAA9 /* Pods_____.framework */; };
 		581D34191FDE37E800C607BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 581D34181FDE37E800C607BC /* main.m */; };
 		581D341C1FDE37E800C607BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 581D341B1FDE37E800C607BC /* AppDelegate.m */; };
 		581D34241FDE37E800C607BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581D34231FDE37E800C607BC /* Assets.xcassets */; };
@@ -22,6 +23,11 @@
 		581D34601FDE58CE00C607BC /* ZYGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581D345E1FDE58CE00C607BC /* ZYGameViewController.m */; };
 		581D34611FDE58CE00C607BC /* ZYGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 581D345F1FDE58CE00C607BC /* ZYGameViewController.xib */; };
 		581D34641FDE5B8B00C607BC /* ZYDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581D34631FDE5B8B00C607BC /* ZYDrawView.m */; };
+		585813191FDFCC4500CC3D1D /* SocketIOClient+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 585813181FDFCC4500CC3D1D /* SocketIOClient+ZY.m */; };
+		5858131D1FDFCE0D00CC3D1D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5858131B1FDFCE0D00CC3D1D /* LoginViewController.m */; };
+		5858131E1FDFCE0D00CC3D1D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5858131C1FDFCE0D00CC3D1D /* LoginViewController.xib */; };
+		585813211FDFCFA900CC3D1D /* IMG_5697.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5858131F1FDFCFA900CC3D1D /* IMG_5697.JPG */; };
+		585813221FDFCFA900CC3D1D /* IMG_5699.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 585813201FDFCFA900CC3D1D /* IMG_5699.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		494A6FE0A3EB4932DCBD00B1 /* Pods-你画我猜.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-你画我猜.debug.xcconfig"; path = "Pods/Target Support Files/Pods-你画我猜/Pods-你画我猜.debug.xcconfig"; sourceTree = "<group>"; };
 		581D34141FDE37E800C607BC /* 你画我猜.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "你画我猜.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		581D34181FDE37E800C607BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		581D341A1FDE37E800C607BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +75,15 @@
 		581D345F1FDE58CE00C607BC /* ZYGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYGameViewController.xib; sourceTree = "<group>"; };
 		581D34621FDE5B8B00C607BC /* ZYDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDrawView.h; sourceTree = "<group>"; };
 		581D34631FDE5B8B00C607BC /* ZYDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDrawView.m; sourceTree = "<group>"; };
+		585813171FDFCC4500CC3D1D /* SocketIOClient+ZY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketIOClient+ZY.h"; sourceTree = "<group>"; };
+		585813181FDFCC4500CC3D1D /* SocketIOClient+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SocketIOClient+ZY.m"; sourceTree = "<group>"; };
+		5858131A1FDFCE0D00CC3D1D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5858131B1FDFCE0D00CC3D1D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5858131C1FDFCE0D00CC3D1D /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		5858131F1FDFCFA900CC3D1D /* IMG_5697.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5697.JPG; sourceTree = "<group>"; };
+		585813201FDFCFA900CC3D1D /* IMG_5699.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5699.JPG; sourceTree = "<group>"; };
+		E95A2565E094F7E527253EBE /* Pods-你画我猜.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-你画我猜.release.xcconfig"; path = "Pods/Target Support Files/Pods-你画我猜/Pods-你画我猜.release.xcconfig"; sourceTree = "<group>"; };
+		FE496D3CD2AC6976EC75BAA9 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12761B88842560A05D3D0AA7 /* Pods_____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +119,8 @@
 				581D34301FDE37E800C607BC /* 你画我猜Tests */,
 				581D343B1FDE37E800C607BC /* 你画我猜UITests */,
 				581D34151FDE37E800C607BC /* Products */,
+				7A35934FE05EFCB48574F1B8 /* Pods */,
+				DE1F898CB216F168422625EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +137,9 @@
 		581D34161FDE37E800C607BC /* 你画我猜 */ = {
 			isa = PBXGroup;
 			children = (
+				5858131A1FDFCE0D00CC3D1D /* LoginViewController.h */,
+				5858131B1FDFCE0D00CC3D1D /* LoginViewController.m */,
+				5858131C1FDFCE0D00CC3D1D /* LoginViewController.xib */,
 				581D344A1FDE38C100C607BC /* ZYRegisterViewController.h */,
 				581D344B1FDE38C100C607BC /* ZYRegisterViewController.m */,
 				581D344C1FDE38C100C607BC /* ZYRegisterViewController.xib */,
@@ -129,6 +151,8 @@
 				581D345F1FDE58CE00C607BC /* ZYGameViewController.xib */,
 				581D34621FDE5B8B00C607BC /* ZYDrawView.h */,
 				581D34631FDE5B8B00C607BC /* ZYDrawView.m */,
+				585813171FDFCC4500CC3D1D /* SocketIOClient+ZY.h */,
+				585813181FDFCC4500CC3D1D /* SocketIOClient+ZY.m */,
 				581D34171FDE37E800C607BC /* Supporting Files */,
 			);
 			path = "你画我猜";
@@ -137,6 +161,8 @@
 		581D34171FDE37E800C607BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5858131F1FDFCFA900CC3D1D /* IMG_5697.JPG */,
+				585813201FDFCFA900CC3D1D /* IMG_5699.JPG */,
 				581D344F1FDE39EE00C607BC /* Mutou_avatar.png */,
 				581D34501FDE39EE00C607BC /* ZYSu_avatar.png */,
 				581D341A1FDE37E800C607BC /* AppDelegate.h */,
@@ -167,6 +193,23 @@
 			path = "你画我猜UITests";
 			sourceTree = "<group>";
 		};
+		7A35934FE05EFCB48574F1B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				494A6FE0A3EB4932DCBD00B1 /* Pods-你画我猜.debug.xcconfig */,
+				E95A2565E094F7E527253EBE /* Pods-你画我猜.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE1F898CB216F168422625EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE496D3CD2AC6976EC75BAA9 /* Pods_____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 581D34411FDE37E800C607BC /* Build configuration list for PBXNativeTarget "你画我猜" */;
 			buildPhases = (
+				2B89D373B3E18ACCFE29780E /* [CP] Check Pods Manifest.lock */,
 				581D34101FDE37E800C607BC /* Sources */,
 				581D34111FDE37E800C607BC /* Frameworks */,
 				581D34121FDE37E800C607BC /* Resources */,
+				B17AEEC2D4D6F6CEF68400DB /* [CP] Embed Pods Frameworks */,
+				7BFD831934095E61FCAE6797 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +280,7 @@
 				TargetAttributes = {
 					581D34131FDE37E800C607BC = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J89744QE5F;
 						ProvisioningStyle = Manual;
 					};
 					581D342C1FDE37E800C607BC = {
@@ -273,7 +320,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5858131E1FDFCE0D00CC3D1D /* LoginViewController.xib in Resources */,
 				581D34271FDE37E800C607BC /* LaunchScreen.storyboard in Resources */,
+				585813221FDFCFA900CC3D1D /* IMG_5699.JPG in Resources */,
+				585813211FDFCFA900CC3D1D /* IMG_5697.JPG in Resources */,
 				581D34241FDE37E800C607BC /* Assets.xcassets in Resources */,
 				581D344E1FDE38C100C607BC /* ZYRegisterViewController.xib in Resources */,
 				581D34521FDE39EE00C607BC /* ZYSu_avatar.png in Resources */,
@@ -299,12 +349,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B89D373B3E18ACCFE29780E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7BFD831934095E61FCAE6797 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-你画我猜/Pods-你画我猜-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B17AEEC2D4D6F6CEF68400DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-你画我猜/Pods-你画我猜-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		581D34101FDE37E800C607BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5858131D1FDFCE0D00CC3D1D /* LoginViewController.m in Sources */,
 				581D34601FDE58CE00C607BC /* ZYGameViewController.m in Sources */,
+				585813191FDFCC4500CC3D1D /* SocketIOClient+ZY.m in Sources */,
 				581D345B1FDE3C3200C607BC /* ZYRoomViewController.m in Sources */,
 				581D341C1FDE37E800C607BC /* AppDelegate.m in Sources */,
 				581D344D1FDE38C100C607BC /* ZYRegisterViewController.m in Sources */,
@@ -450,20 +550,23 @@
 		};
 		581D34421FDE37E800C607BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494A6FE0A3EB4932DCBD00B1 /* Pods-你画我猜.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = J89744QE5F;
 				INFOPLIST_FILE = "你画我猜/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = longbei.org.DragonCup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "22fd2b04-b76c-400a-8124-617cda4bef41";
+				PROVISIONING_PROFILE_SPECIFIER = 20171208_development;
 			};
 			name = Debug;
 		};
 		581D34431FDE37E800C607BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95A2565E094F7E527253EBE /* Pods-你画我猜.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -541,6 +644,7 @@
 				581D34431FDE37E800C607BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		581D34441FDE37E800C607BC /* Build configuration list for PBXNativeTarget "你画我猜Tests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +653,7 @@
 				581D34461FDE37E800C607BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		581D34471FDE37E800C607BC /* Build configuration list for PBXNativeTarget "你画我猜UITests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +662,7 @@
 				581D34491FDE37E800C607BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
