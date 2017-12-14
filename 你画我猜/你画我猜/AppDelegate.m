@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "LoginViewController.h"
+#import "ZYRoomViewController.h"
 #import "ZYRegisterViewController.h"
 #import "SocketIOClient+ZY.h"
 
@@ -25,7 +25,7 @@
     NSString *userid = [[NSUserDefaults standardUserDefaults] objectForKey:@"userid"];
     
     if (userid.length) {
-        self.window.rootViewController = [LoginViewController new];
+        self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[ZYRoomViewController new]];
     }else{
         self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[ZYRegisterViewController new]];
     }

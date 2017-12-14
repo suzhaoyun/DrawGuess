@@ -14,20 +14,24 @@
 		581D34271FDE37E800C607BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581D34251FDE37E800C607BC /* LaunchScreen.storyboard */; };
 		581D34321FDE37E800C607BC /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 581D34311FDE37E800C607BC /* ____Tests.m */; };
 		581D343D1FDE37E800C607BC /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 581D343C1FDE37E800C607BC /* ____UITests.m */; };
-		581D344D1FDE38C100C607BC /* ZYRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581D344B1FDE38C100C607BC /* ZYRegisterViewController.m */; };
-		581D344E1FDE38C100C607BC /* ZYRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 581D344C1FDE38C100C607BC /* ZYRegisterViewController.xib */; };
 		581D34511FDE39EE00C607BC /* Mutou_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 581D344F1FDE39EE00C607BC /* Mutou_avatar.png */; };
 		581D34521FDE39EE00C607BC /* ZYSu_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 581D34501FDE39EE00C607BC /* ZYSu_avatar.png */; };
-		581D345B1FDE3C3200C607BC /* ZYRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581D34591FDE3C3200C607BC /* ZYRoomViewController.m */; };
-		581D345C1FDE3C3200C607BC /* ZYRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 581D345A1FDE3C3200C607BC /* ZYRoomViewController.xib */; };
-		581D34601FDE58CE00C607BC /* ZYGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581D345E1FDE58CE00C607BC /* ZYGameViewController.m */; };
-		581D34611FDE58CE00C607BC /* ZYGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 581D345F1FDE58CE00C607BC /* ZYGameViewController.xib */; };
-		581D34641FDE5B8B00C607BC /* ZYDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581D34631FDE5B8B00C607BC /* ZYDrawView.m */; };
-		585813191FDFCC4500CC3D1D /* SocketIOClient+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 585813181FDFCC4500CC3D1D /* SocketIOClient+ZY.m */; };
-		5858131D1FDFCE0D00CC3D1D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5858131B1FDFCE0D00CC3D1D /* LoginViewController.m */; };
-		5858131E1FDFCE0D00CC3D1D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5858131C1FDFCE0D00CC3D1D /* LoginViewController.xib */; };
 		585813211FDFCFA900CC3D1D /* IMG_5697.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5858131F1FDFCFA900CC3D1D /* IMG_5697.JPG */; };
 		585813221FDFCFA900CC3D1D /* IMG_5699.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 585813201FDFCFA900CC3D1D /* IMG_5699.JPG */; };
+		58642D4D1FE0D66900D8AEB5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58642D3A1FE0D66800D8AEB5 /* LoginViewController.m */; };
+		58642D4E1FE0D66900D8AEB5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58642D3B1FE0D66800D8AEB5 /* LoginViewController.xib */; };
+		58642D4F1FE0D66900D8AEB5 /* ZYGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58642D3D1FE0D66800D8AEB5 /* ZYGameViewController.m */; };
+		58642D501FE0D66900D8AEB5 /* ZYGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58642D3E1FE0D66800D8AEB5 /* ZYGameViewController.xib */; };
+		58642D511FE0D66900D8AEB5 /* ZYRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58642D401FE0D66800D8AEB5 /* ZYRegisterViewController.m */; };
+		58642D521FE0D66900D8AEB5 /* ZYRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58642D411FE0D66900D8AEB5 /* ZYRegisterViewController.xib */; };
+		58642D531FE0D66900D8AEB5 /* ZYRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58642D431FE0D66900D8AEB5 /* ZYRoomViewController.m */; };
+		58642D541FE0D66900D8AEB5 /* ZYRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58642D441FE0D66900D8AEB5 /* ZYRoomViewController.xib */; };
+		58642D551FE0D66900D8AEB5 /* SocketIOClient+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 58642D471FE0D66900D8AEB5 /* SocketIOClient+ZY.m */; };
+		58642D561FE0D66900D8AEB5 /* ZYUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58642D491FE0D66900D8AEB5 /* ZYUserModel.m */; };
+		58642D571FE0D66900D8AEB5 /* ZYDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58642D4C1FE0D66900D8AEB5 /* ZYDrawView.m */; };
+		58642D5A1FE0D67700D8AEB5 /* ZYSitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 58642D591FE0D67700D8AEB5 /* ZYSitButton.m */; };
+		58642D5D1FE0D77E00D8AEB5 /* ZYBussinessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58642D5C1FE0D77E00D8AEB5 /* ZYBussinessManager.m */; };
+		58642D5F1FE11DCA00D8AEB5 /* IMG_5698.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 58642D5E1FE11DCA00D8AEB5 /* IMG_5698.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,26 +66,33 @@
 		581D34381FDE37E800C607BC /* 你画我猜UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "你画我猜UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		581D343C1FDE37E800C607BC /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		581D343E1FDE37E800C607BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		581D344A1FDE38C100C607BC /* ZYRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYRegisterViewController.h; sourceTree = "<group>"; };
-		581D344B1FDE38C100C607BC /* ZYRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYRegisterViewController.m; sourceTree = "<group>"; };
-		581D344C1FDE38C100C607BC /* ZYRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYRegisterViewController.xib; sourceTree = "<group>"; };
 		581D344F1FDE39EE00C607BC /* Mutou_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mutou_avatar.png; sourceTree = "<group>"; };
 		581D34501FDE39EE00C607BC /* ZYSu_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZYSu_avatar.png; sourceTree = "<group>"; };
-		581D34581FDE3C3200C607BC /* ZYRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYRoomViewController.h; sourceTree = "<group>"; };
-		581D34591FDE3C3200C607BC /* ZYRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYRoomViewController.m; sourceTree = "<group>"; };
-		581D345A1FDE3C3200C607BC /* ZYRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYRoomViewController.xib; sourceTree = "<group>"; };
-		581D345D1FDE58CE00C607BC /* ZYGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGameViewController.h; sourceTree = "<group>"; };
-		581D345E1FDE58CE00C607BC /* ZYGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGameViewController.m; sourceTree = "<group>"; };
-		581D345F1FDE58CE00C607BC /* ZYGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYGameViewController.xib; sourceTree = "<group>"; };
-		581D34621FDE5B8B00C607BC /* ZYDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDrawView.h; sourceTree = "<group>"; };
-		581D34631FDE5B8B00C607BC /* ZYDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDrawView.m; sourceTree = "<group>"; };
-		585813171FDFCC4500CC3D1D /* SocketIOClient+ZY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketIOClient+ZY.h"; sourceTree = "<group>"; };
-		585813181FDFCC4500CC3D1D /* SocketIOClient+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SocketIOClient+ZY.m"; sourceTree = "<group>"; };
-		5858131A1FDFCE0D00CC3D1D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		5858131B1FDFCE0D00CC3D1D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		5858131C1FDFCE0D00CC3D1D /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		5858131F1FDFCFA900CC3D1D /* IMG_5697.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5697.JPG; sourceTree = "<group>"; };
 		585813201FDFCFA900CC3D1D /* IMG_5699.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5699.JPG; sourceTree = "<group>"; };
+		58642D391FE0D66800D8AEB5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		58642D3A1FE0D66800D8AEB5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		58642D3B1FE0D66800D8AEB5 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		58642D3C1FE0D66800D8AEB5 /* ZYGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGameViewController.h; sourceTree = "<group>"; };
+		58642D3D1FE0D66800D8AEB5 /* ZYGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGameViewController.m; sourceTree = "<group>"; };
+		58642D3E1FE0D66800D8AEB5 /* ZYGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYGameViewController.xib; sourceTree = "<group>"; };
+		58642D3F1FE0D66800D8AEB5 /* ZYRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYRegisterViewController.h; sourceTree = "<group>"; };
+		58642D401FE0D66800D8AEB5 /* ZYRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYRegisterViewController.m; sourceTree = "<group>"; };
+		58642D411FE0D66900D8AEB5 /* ZYRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYRegisterViewController.xib; sourceTree = "<group>"; };
+		58642D421FE0D66900D8AEB5 /* ZYRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYRoomViewController.h; sourceTree = "<group>"; };
+		58642D431FE0D66900D8AEB5 /* ZYRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYRoomViewController.m; sourceTree = "<group>"; };
+		58642D441FE0D66900D8AEB5 /* ZYRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYRoomViewController.xib; sourceTree = "<group>"; };
+		58642D461FE0D66900D8AEB5 /* SocketIOClient+ZY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketIOClient+ZY.h"; sourceTree = "<group>"; };
+		58642D471FE0D66900D8AEB5 /* SocketIOClient+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SocketIOClient+ZY.m"; sourceTree = "<group>"; };
+		58642D481FE0D66900D8AEB5 /* ZYUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYUserModel.h; sourceTree = "<group>"; };
+		58642D491FE0D66900D8AEB5 /* ZYUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYUserModel.m; sourceTree = "<group>"; };
+		58642D4B1FE0D66900D8AEB5 /* ZYDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDrawView.h; sourceTree = "<group>"; };
+		58642D4C1FE0D66900D8AEB5 /* ZYDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDrawView.m; sourceTree = "<group>"; };
+		58642D581FE0D67700D8AEB5 /* ZYSitButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSitButton.h; sourceTree = "<group>"; };
+		58642D591FE0D67700D8AEB5 /* ZYSitButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSitButton.m; sourceTree = "<group>"; };
+		58642D5B1FE0D77E00D8AEB5 /* ZYBussinessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBussinessManager.h; sourceTree = "<group>"; };
+		58642D5C1FE0D77E00D8AEB5 /* ZYBussinessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBussinessManager.m; sourceTree = "<group>"; };
+		58642D5E1FE11DCA00D8AEB5 /* IMG_5698.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5698.JPG; sourceTree = "<group>"; };
 		E95A2565E094F7E527253EBE /* Pods-你画我猜.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-你画我猜.release.xcconfig"; path = "Pods/Target Support Files/Pods-你画我猜/Pods-你画我猜.release.xcconfig"; sourceTree = "<group>"; };
 		FE496D3CD2AC6976EC75BAA9 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -137,22 +148,9 @@
 		581D34161FDE37E800C607BC /* 你画我猜 */ = {
 			isa = PBXGroup;
 			children = (
-				5858131A1FDFCE0D00CC3D1D /* LoginViewController.h */,
-				5858131B1FDFCE0D00CC3D1D /* LoginViewController.m */,
-				5858131C1FDFCE0D00CC3D1D /* LoginViewController.xib */,
-				581D344A1FDE38C100C607BC /* ZYRegisterViewController.h */,
-				581D344B1FDE38C100C607BC /* ZYRegisterViewController.m */,
-				581D344C1FDE38C100C607BC /* ZYRegisterViewController.xib */,
-				581D34581FDE3C3200C607BC /* ZYRoomViewController.h */,
-				581D34591FDE3C3200C607BC /* ZYRoomViewController.m */,
-				581D345A1FDE3C3200C607BC /* ZYRoomViewController.xib */,
-				581D345D1FDE58CE00C607BC /* ZYGameViewController.h */,
-				581D345E1FDE58CE00C607BC /* ZYGameViewController.m */,
-				581D345F1FDE58CE00C607BC /* ZYGameViewController.xib */,
-				581D34621FDE5B8B00C607BC /* ZYDrawView.h */,
-				581D34631FDE5B8B00C607BC /* ZYDrawView.m */,
-				585813171FDFCC4500CC3D1D /* SocketIOClient+ZY.h */,
-				585813181FDFCC4500CC3D1D /* SocketIOClient+ZY.m */,
+				58642D381FE0D66800D8AEB5 /* Controllers */,
+				58642D451FE0D66900D8AEB5 /* Models */,
+				58642D4A1FE0D66900D8AEB5 /* Views */,
 				581D34171FDE37E800C607BC /* Supporting Files */,
 			);
 			path = "你画我猜";
@@ -163,6 +161,7 @@
 			children = (
 				5858131F1FDFCFA900CC3D1D /* IMG_5697.JPG */,
 				585813201FDFCFA900CC3D1D /* IMG_5699.JPG */,
+				58642D5E1FE11DCA00D8AEB5 /* IMG_5698.JPG */,
 				581D344F1FDE39EE00C607BC /* Mutou_avatar.png */,
 				581D34501FDE39EE00C607BC /* ZYSu_avatar.png */,
 				581D341A1FDE37E800C607BC /* AppDelegate.h */,
@@ -191,6 +190,49 @@
 				581D343E1FDE37E800C607BC /* Info.plist */,
 			);
 			path = "你画我猜UITests";
+			sourceTree = "<group>";
+		};
+		58642D381FE0D66800D8AEB5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				58642D391FE0D66800D8AEB5 /* LoginViewController.h */,
+				58642D3A1FE0D66800D8AEB5 /* LoginViewController.m */,
+				58642D3B1FE0D66800D8AEB5 /* LoginViewController.xib */,
+				58642D3C1FE0D66800D8AEB5 /* ZYGameViewController.h */,
+				58642D3D1FE0D66800D8AEB5 /* ZYGameViewController.m */,
+				58642D3E1FE0D66800D8AEB5 /* ZYGameViewController.xib */,
+				58642D3F1FE0D66800D8AEB5 /* ZYRegisterViewController.h */,
+				58642D401FE0D66800D8AEB5 /* ZYRegisterViewController.m */,
+				58642D411FE0D66900D8AEB5 /* ZYRegisterViewController.xib */,
+				58642D421FE0D66900D8AEB5 /* ZYRoomViewController.h */,
+				58642D431FE0D66900D8AEB5 /* ZYRoomViewController.m */,
+				58642D441FE0D66900D8AEB5 /* ZYRoomViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		58642D451FE0D66900D8AEB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58642D461FE0D66900D8AEB5 /* SocketIOClient+ZY.h */,
+				58642D471FE0D66900D8AEB5 /* SocketIOClient+ZY.m */,
+				58642D481FE0D66900D8AEB5 /* ZYUserModel.h */,
+				58642D491FE0D66900D8AEB5 /* ZYUserModel.m */,
+				58642D5B1FE0D77E00D8AEB5 /* ZYBussinessManager.h */,
+				58642D5C1FE0D77E00D8AEB5 /* ZYBussinessManager.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		58642D4A1FE0D66900D8AEB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58642D4B1FE0D66900D8AEB5 /* ZYDrawView.h */,
+				58642D4C1FE0D66900D8AEB5 /* ZYDrawView.m */,
+				58642D581FE0D67700D8AEB5 /* ZYSitButton.h */,
+				58642D591FE0D67700D8AEB5 /* ZYSitButton.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		7A35934FE05EFCB48574F1B8 /* Pods */ = {
@@ -320,15 +362,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5858131E1FDFCE0D00CC3D1D /* LoginViewController.xib in Resources */,
+				58642D5F1FE11DCA00D8AEB5 /* IMG_5698.JPG in Resources */,
 				581D34271FDE37E800C607BC /* LaunchScreen.storyboard in Resources */,
 				585813221FDFCFA900CC3D1D /* IMG_5699.JPG in Resources */,
+				58642D521FE0D66900D8AEB5 /* ZYRegisterViewController.xib in Resources */,
 				585813211FDFCFA900CC3D1D /* IMG_5697.JPG in Resources */,
+				58642D541FE0D66900D8AEB5 /* ZYRoomViewController.xib in Resources */,
 				581D34241FDE37E800C607BC /* Assets.xcassets in Resources */,
-				581D344E1FDE38C100C607BC /* ZYRegisterViewController.xib in Resources */,
 				581D34521FDE39EE00C607BC /* ZYSu_avatar.png in Resources */,
-				581D345C1FDE3C3200C607BC /* ZYRoomViewController.xib in Resources */,
-				581D34611FDE58CE00C607BC /* ZYGameViewController.xib in Resources */,
+				58642D501FE0D66900D8AEB5 /* ZYGameViewController.xib in Resources */,
+				58642D4E1FE0D66900D8AEB5 /* LoginViewController.xib in Resources */,
 				581D34511FDE39EE00C607BC /* Mutou_avatar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,14 +445,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5858131D1FDFCE0D00CC3D1D /* LoginViewController.m in Sources */,
-				581D34601FDE58CE00C607BC /* ZYGameViewController.m in Sources */,
-				585813191FDFCC4500CC3D1D /* SocketIOClient+ZY.m in Sources */,
-				581D345B1FDE3C3200C607BC /* ZYRoomViewController.m in Sources */,
+				58642D531FE0D66900D8AEB5 /* ZYRoomViewController.m in Sources */,
+				58642D5D1FE0D77E00D8AEB5 /* ZYBussinessManager.m in Sources */,
+				58642D551FE0D66900D8AEB5 /* SocketIOClient+ZY.m in Sources */,
+				58642D511FE0D66900D8AEB5 /* ZYRegisterViewController.m in Sources */,
+				58642D561FE0D66900D8AEB5 /* ZYUserModel.m in Sources */,
 				581D341C1FDE37E800C607BC /* AppDelegate.m in Sources */,
-				581D344D1FDE38C100C607BC /* ZYRegisterViewController.m in Sources */,
+				58642D571FE0D66900D8AEB5 /* ZYDrawView.m in Sources */,
+				58642D4F1FE0D66900D8AEB5 /* ZYGameViewController.m in Sources */,
+				58642D5A1FE0D67700D8AEB5 /* ZYSitButton.m in Sources */,
 				581D34191FDE37E800C607BC /* main.m in Sources */,
-				581D34641FDE5B8B00C607BC /* ZYDrawView.m in Sources */,
+				58642D4D1FE0D66900D8AEB5 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
